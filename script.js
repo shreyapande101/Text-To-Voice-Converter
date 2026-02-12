@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 let speech = new SpeechSynthesisUtterance();
 
 let voices = [];
@@ -23,7 +23,6 @@ document.querySelector("button").addEventListener("click", () =>{
     window.speechSynthesis.speak(speech);
 } )
 
-=======
 let speech = new SpeechSynthesisUtterance();
 
 let voices = [];
@@ -48,4 +47,3 @@ document.querySelector("button").addEventListener("click", () =>{
     window.speechSynthesis.speak(speech);
 } )
 
->>>>>>> b1fd2280d0a543aa5724abe555c2908dd7b7c4a6
